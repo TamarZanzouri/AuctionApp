@@ -1,0 +1,13 @@
+
+<div class="border p-5 m-5 d-inline-block">
+  <h3>{{name}}</h3>
+  <img [attr.src]="image" class="rounded img-thumbnail"/>
+  <h5 *ngIf="!itemAvalible">Item no longer available for purchase</h5>
+<form class="form-inline mt-2">
+  <div class="form-group mx-sm-3 mb-2">
+    <input type="number" class="form-control" id="budAmount" placeholder="bid amount" [disabled]="notAvailble" [(ngModel)]="bidAmount" name="bidAmount"/>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2" (click)="bid()" [disabled]="notAvailble">Bid</button>
+</form>
+</div>
+

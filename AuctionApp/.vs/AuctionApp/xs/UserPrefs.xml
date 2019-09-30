@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{920323C7-D348-430F-9CC4-BF7C18BD29E5}|Default">
+  <MonoDevelop.Ide.ItemProperties.AuctionApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AuctionApp/ClientApp/src/app/app.module.ts">
+    <Files>
+      <File FileName="AuctionApp/ClientApp/src/main.ts" Line="19" Column="23" />
+      <File FileName="AuctionApp/ClientApp/src/app/home/home.component.html" />
+      <File FileName="AuctionApp/ClientApp/src/app/home/home.component.ts" />
+      <File FileName="AuctionApp/ClientApp/src/app/product/product.component.ts" />
+      <File FileName="AuctionApp/ClientApp/src/app/product/product.component.html" />
+      <File FileName="AuctionApp/Controllers/ProductsController.cs" />
+      <File FileName="AuctionApp/Controllers/Models/MemberBid.cs" />
+      <File FileName="AuctionApp/ClientApp/src/app/sales/sales.component.html" />
+      <File FileName="AuctionApp/Services/DataLayer.cs" />
+      <File FileName="AuctionApp/ClientApp/src/app/app.module.ts" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AuctionApp" expanded="True">
+            <Node name="AuctionApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True">
+                    <Node name="app.module.ts" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

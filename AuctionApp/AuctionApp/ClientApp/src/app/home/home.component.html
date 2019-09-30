@@ -1,0 +1,6 @@
+<h1>Auction App</h1>
+
+<div>
+  <app-product *ngFor="let item of products" [memberId]="memberId" [id]="item.id" [name]="item.name" [image]="item.image" [endDate]="item.endDate" [notAvailble]="item.notAvailble"></app-product>
+</div>
+
